@@ -16,8 +16,9 @@
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77,181,255,0.4);
     --color-text: black;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-light: darkblue;
 
+    --transition: all 400ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -43,4 +44,90 @@ body{
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+section {
+    margin-top: 6rem;
+    height: 100vh;
+}
+
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--color-light);
+}
+
+section > h2 {
+    color: var(--color-primary);
+    margin-bottom: 4rem;
+}
+
+/* .text-light{
+    color: var(--color-light);
+} */
+
+a {
+    color: black;
+    transition: var(--transition);
+}
+
+
+a:hover {
+    color: var(--color-light);
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.7rem 1.1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-light);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES LIKE TABLETS) */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+
+}
+/* MEDIA QUERIES (SMALL DEVICES LIKE PHONES) */
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+    section > h2 {
+        margin-bottom: 2rem;
+    }
+
 }
