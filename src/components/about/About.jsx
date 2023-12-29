@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import me_about from '../../assets/me-about.jpg'
-import { FaAward } from "react-icons/fa6";
+import { FaAward, FaItalic } from "react-icons/fa6";
 import { PiStudentDuotone } from "react-icons/pi";
 import { MdWork } from "react-icons/md";
 
@@ -35,9 +35,21 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eligendi nesciunt laborum impedit praesentium veritatis a, nulla quibusdam quisquam cupiditate! Qui, dolores doloribus consequuntur vero expedita harum mollitia fugiat dolore.</p>
+          <p>
+            My name is Heet Kothari and I'm a 4th year Software Engineering
+            student at the University of Alberta. I love programming because it
+            allows me to develop meaningful and impactful software. I made this
+            website using my skills in front-end development and to tell everyone a little bit about myself. In
+            addition to my passion for programming, I enjoy playing video games,
+            watching movies and shows, and going out with friends and family.
+            I'm a huge fan of Sci-Fi movies, with my favourite one being{" "}
+            <i>Interstellar</i>. My favourite series of video games is NBA 2K and I usually play this on my Xbox.
+            If you would like to learn more about me, please feel free to reach out to me using the button below!
+          </p>
 
-          <a href="#contact" className='btn btn-primary'>Chat with Me</a>
+          <a href="#contact" className="btn btn-primary">
+            Chat with Me
+          </a>
         </div>
       </div>
     </section>
