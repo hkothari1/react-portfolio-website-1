@@ -1,0 +1,49 @@
+footer {
+    background: skyblue;
+    padding: 2.8rem 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 6rem;
+}
+
+.footer_logo {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.8rem;
+    margin: 0 auto 3rem;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer__socials a {
+    font-size: 2rem;
+}
+
+.footer__copyright {
+    margin-bottom: 4rem;
+}
+
+/* MEDIA QUERIES (SMALL DEVICES LIKE PHONES) */
+@media screen and (max-width: 600px) {
+   .permalinks {
+    flex-direction: column;
+    gap: 1.4rem;
+   }
+
+   .footer__socials {
+    margin-bottom: 2.5rem;
+   }
+}
