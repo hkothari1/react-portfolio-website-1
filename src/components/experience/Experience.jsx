@@ -7,26 +7,53 @@ const Experience = () => {
       <h2>My Professional Experience</h2>
 
       <div className="container experience__container">
+        <div className="experience__PCLConstruction">
+          <h2 class="company">PCL Construction</h2>
+          <h4 class="position">Full Stack Developer Intern</h4>
+          <div className="experience_content">
+            <ul class="list">
+              <li class="list-item">
+                Created an employee management web application using the MVCS
+                design pattern and REST API architecture, leveraging C#, .NET,
+                and Entity Framework for backend development, Angular and
+                TypeScript for frontend development, and MSSQL Server for
+                database management
+              </li>
+              <li class="list-item">
+                Developed and integrated advanced form field components,
+                including checklist and signature fields, into a dynamic form
+                builder web application, using C#, .NET, Entity Framework,
+                Angular, TypeScript, HTML, and SCSS
+              </li>
+              <li class="list-item">
+                Enhanced reliability and performance of the company’s largest
+                in-house construction management web application by resolving
+                software bugs while using Agile practices and Azure DevOps for
+                code management
+              </li>
+            </ul>
+          </div>
+        </div>
         <div className="experience__48HourDiscovery">
           <h2 class="company">48HourDiscovery</h2>
           <h4 class="position">Full Stack Developer Intern</h4>
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
-                Designed and implemented MySQL triggers to automatically
-                maintain hierarchical data relationships between two tables,
-                capturing the lineage of DNA samples sequenced over multiple
-                rounds
+                Enabled accurate tracking and analysis of DNA sample evolution
+                by designing and implementing MySQL triggers that maintain
+                hierarchical data relationships between database tables
               </li>
               <li class="list-item">
-                Developed interactive UI components in JavaScript, including
-                buttons and sliders, to dynamically adjust bar plot elements,
-                enhancing user experience and data visualization
+                Enhanced user experience and data visualization within the
+                company’s in-house web application by developing interactive UI
+                components in JavaScript that dynamically adjust bar plot
+                elements
               </li>
               <li class="list-item">
-                Conducted in-depth navigation and debugging of extensive Flask
-                codebase, successfully identifying and addressing root causes of
-                critical software bugs
+                Successfully identified and addressed root causes of critical
+                software bugs by performing thorough navigation and debugging of
+                the Flask backend
               </li>
             </ul>
           </div>
@@ -37,22 +64,17 @@ const Experience = () => {
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
-                Performed backend software development using Golang and a Linux
-                environment, resulting in improved productivity of all
-                telecommunication teams in the department
+                Improved productivity of all telecommunication teams in the
+                department by performing backend software development tasks
+                using Go and a Linux environment
               </li>
               <li class="list-item">
-                Implemented Golang code which allows for real-time backup of
-                crucial csv files and informs admins about any changes
+                Enabled real-time backup and secure storage of critical CSV
+                files by implementing algorithms in Go
               </li>
               <li class="list-item">
-                Developed a Golang script that performed CSV data parsing to
-                ensure real-time data accuracy
-              </li>
-              <li class="list-item">
-                Demonstrated familiarization with telecom terminology through
-                analyzing base station and access point/Wifi router user manuals
-                and extracting power consumption values
+                Enhanced data accuracy by developing a Go script that performs
+                CSV data processing and parsing
               </li>
             </ul>
           </div>
@@ -63,14 +85,9 @@ const Experience = () => {
           <div className="experience_content">
             <ul>
               <li>
-                Developed Python code in a Linux environment for the Automated
-                Frequency Coordination (AFC) Evaluation Python Tool and designed
-                a flowchart using Microsoft Visio for the 3000 lines of code in
-                the Python Tool codebase
-              </li>
-              <li>
-                Utilized VBA to identify erroneous Excel data fields in the 6
-                GHz data extract
+                Optimized spectrum management and allocation by developing
+                Python code for an in-house software application that automates
+                and evaluates the coordination of wireless frequency usage
               </li>
               <li>
                 Helped address consultation of technical documents from
