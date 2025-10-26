@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Professional Experience</h5>
-              <small>~2 years</small>
+              <small>2 years</small>
             </article>
             <article className="about__card">
               <PiStudentDuotone className="about__icon" />
@@ -30,23 +30,24 @@ const About = () => {
             </article>
             <article className="about__card">
               <MdWork className="about__icon" />
-              <h5>Full-Time Job Availability</h5>
-              <small>Starting May 2025</small>
+              <h5>Current Job</h5>
+              <small>Software Developer I at Catalis</small>
             </article>
           </div>
 
           <p>
-            My name is Heet Kothari and I'm a 5th year Software Engineering
-            student at the University of Alberta. I love programming because it
-            allows me to develop meaningful and impactful software. I made this
-            website using my skills in front-end development and to tell
-            everyone a little bit about myself. In addition to my passion for
-            programming, I enjoy playing video games, watching movies and shows,
-            and going out with friends and family. I'm a huge fan of Sci-Fi
-            movies, with my favourite one being <i>Interstellar</i>. My
-            favourite series of video games is NBA 2K and I usually play this on
-            my Xbox. If you would like to learn more about me, please feel free
-            to reach out to me using the button below!
+            My name is Heet and and I'm a Software Developer I at Catalis and a
+            software engineering alumnus from the University of Alberta. I love
+            programming because it allows me to develop meaningful and impactful
+            software. I made this website using my skills in front-end
+            development and to tell everyone a little bit about myself. In
+            addition to my passion for programming, I enjoy playing video games,
+            watching movies and shows, and going out with friends and family.
+            I'm a huge fan of Sci-Fi movies, with my favourite one being{" "}
+            <i>Interstellar</i>. My favourite series of video games is NBA 2K
+            and I usually play this on my Xbox. If you would like to learn more
+            about me, please feel free to reach out to me using the button
+            below!
           </p>
 
           <a href="#contact" className="btn btn-primary">

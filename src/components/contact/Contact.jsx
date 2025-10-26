@@ -38,9 +38,11 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5 className="contact__option-subheader">hkothari@ualberta.ca</h5>
+            <h5 className="contact__option-subheader">
+              heetkothari93@gmail.com
+            </h5>
             <a
-              href="mailto:hkothari@ualberta.ca"
+              href="mailto:heetkothari93@gmail.com"
               target="_blank"
               className="contact__links"
             >
@@ -72,7 +74,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form ref={form} onSubmit = {sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"

@@ -8,8 +8,33 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__PCLConstruction">
+          <h2 class="company">Catalis</h2>
+          <h4 class="position">Software Developer I (Jun 2025 - Present)</h4>
+          <div className="experience_content">
+            <ul class="list">
+              <li class="list-item">
+                Extended a .NET Blazor application with additional Blazor form
+                pages, ensuring seamless integration with existing workflows and
+                components
+              </li>
+              <li class="list-item">
+                Mapped Visual Basic data access layer functions to SQL Server
+                stored procedures within an ASP.NET Web Forms application to
+                streamline data access and improve maintainability
+              </li>
+              <li class="list-item">
+                Navigated and analyzed complex SQL Server stored procedures,
+                mapping input/output parameters and result sets to strongly
+                typed C# models in a .NET MVC application
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="experience__PCLConstruction">
           <h2 class="company">PCL Construction</h2>
-          <h4 class="position">Full Stack Developer Intern</h4>
+          <h4 class="position">
+            Full Stack Developer Intern (May 2024 - Dec 2024)
+          </h4>
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
@@ -36,7 +61,9 @@ const Experience = () => {
         </div>
         <div className="experience__48HourDiscovery">
           <h2 class="company">48HourDiscovery</h2>
-          <h4 class="position">Full Stack Developer Intern</h4>
+          <h4 class="position">
+            Full Stack Developer Intern (May 2023 – Aug 2023)
+          </h4>
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
@@ -60,7 +87,9 @@ const Experience = () => {
         </div>
         <div className="experience__SoftwareGovtofCanada">
           <h2 class="company">Government of Canada</h2>
-          <h4 class="position">Software Developer Intern</h4>
+          <h4 class="position">
+            Software Developer Intern (Jan 2023 - Apr 2023)
+          </h4>
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
@@ -81,7 +110,9 @@ const Experience = () => {
         </div>
         <div className="experience__SpectrumGovtofCanada">
           <h2 class="company">Government of Canada</h2>
-          <h4 class="position">Spectrum/Telecom Engineering Intern</h4>
+          <h4 class="position">
+            Spectrum/Telecom Engineering Intern (May 2022 - Aug 2022)
+          </h4>
           <div className="experience_content">
             <ul>
               <li>
