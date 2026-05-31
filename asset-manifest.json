@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio-website-1/static/css/main.257c7bee.css",
-    "main.js": "/react-portfolio-website-1/static/js/main.e5699504.js",
+    "main.js": "/react-portfolio-website-1/static/js/main.6d6faa2f.js",
     "static/media/me.jpg": "/react-portfolio-website-1/static/media/me.9e9f25673a04af8b14d2.jpg",
     "static/media/me-about.jpg": "/react-portfolio-website-1/static/media/me-about.e5ee85a5b70c25ac98d1.jpg",
     "static/media/reactportfolio2.png": "/react-portfolio-website-1/static/media/reactportfolio2.1b98f48df39455b48c68.png",
-    "static/media/HeetKothari_Resume.pdf": "/react-portfolio-website-1/static/media/HeetKothari_Resume.7dc01ecbcec83a136ba5.pdf",
+    "static/media/HeetKothari_Resume.pdf": "/react-portfolio-website-1/static/media/HeetKothari_Resume.eb7b44eaaa7e02ad6a59.pdf",
     "static/media/reactportfolio1.0.jpg": "/react-portfolio-website-1/static/media/reactportfolio1.0.9c85168c60778f4694ec.jpg",
     "static/media/reactportfolio3.png": "/react-portfolio-website-1/static/media/reactportfolio3.78f34794c517a6fc243e.png",
     "index.html": "/react-portfolio-website-1/index.html",
     "main.257c7bee.css.map": "/react-portfolio-website-1/static/css/main.257c7bee.css.map",
-    "main.e5699504.js.map": "/react-portfolio-website-1/static/js/main.e5699504.js.map"
+    "main.6d6faa2f.js.map": "/react-portfolio-website-1/static/js/main.6d6faa2f.js.map"
   },
   "entrypoints": [
     "static/css/main.257c7bee.css",
-    "static/js/main.e5699504.js"
+    "static/js/main.6d6faa2f.js"
   ]
 }
