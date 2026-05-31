@@ -13,19 +13,26 @@ const Experience = () => {
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
-                Extended a .NET Blazor application with additional Blazor form
-                pages, ensuring seamless integration with existing workflows and
-                components
+                Developing a multi-tenant SaaS platform that consolidates
+                fourteen state-specific regulatory web applications into a
+                single, configurable codebase supporting U.S. small loan
+                transaction systems
               </li>
               <li class="list-item">
-                Mapped Visual Basic data access layer functions to SQL Server
-                stored procedures within an ASP.NET Web Forms application to
-                streamline data access and improve maintainability
+                Enabling lenders to record small loan transactions and
+                government officials to monitor compliance with state-specific
+                lending laws by building and extending transaction and reporting
+                workflows in a .NET Blazor application
               </li>
               <li class="list-item">
-                Navigated and analyzed complex SQL Server stored procedures,
-                mapping input/output parameters and result sets to strongly
-                typed C# models in a .NET MVC application
+                Streamlined data access and improved maintainability by mapping
+                Visual Basic data access layer functions to SQL Server stored
+                procedures within an ASP.NET Web Forms application
+              </li>
+              <li class="list-item">
+                Analyzed complex SQL Server stored procedures, mapping
+                input/output parameters and result sets to strongly typed C#
+                models in an ASP.NET Core Web API application
               </li>
             </ul>
           </div>
@@ -38,7 +45,7 @@ const Experience = () => {
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
-                Created an employee management web application using the MVCS
+                Created an employee management web application using the MVC
                 design pattern and REST API architecture, leveraging C#, .NET,
                 and Entity Framework for backend development, Angular and
                 TypeScript for frontend development, and MSSQL Server for
@@ -53,8 +60,8 @@ const Experience = () => {
               <li class="list-item">
                 Enhanced reliability and performance of the company’s largest
                 in-house construction management web application by resolving
-                software bugs while using Agile practices and Azure DevOps for
-                code management
+                software bugs while using Agile practices and Azure DevOps
+                Server for code management
               </li>
             </ul>
           </div>
@@ -122,7 +129,7 @@ const Experience = () => {
               </li>
               <li>
                 Helped address consultation of technical documents from
-                stakeholders such as Cisco, Microsoft, and Google
+                stakeholders including Cisco, Microsoft, and Google
               </li>
             </ul>
           </div>
