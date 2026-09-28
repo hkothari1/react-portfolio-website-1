@@ -7,22 +7,42 @@ const Experience = () => {
       <h2>My Professional Experience</h2>
 
       <div className="container experience__container">
-        <div className="experience__PCLConstruction">
-          <h2 class="company">Catalis</h2>
-          <h4 class="position">Software Developer I (Jun 2025 - Present)</h4>
+        <div className="experience__Benevity">
+          <h2 class="company">Benevity</h2>
+          <h4 class="position">Software Developer I (Jun 2026 - Sep 2026)</h4>
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
-                Developing a multi-tenant SaaS platform that consolidates
+                Enabled enterprise clients' employees to discover and sign up
+                for volunteering opportunities on a Microsoft Teams app by
+                syncing event and waitlist data between a PHP web platform and
+                Java Spring Boot microservices
+              </li>
+              <li class="list-item">
+                Practiced an AI-native software development process, using
+                Cursor for planning, design, and code generation across a legacy
+                monolith and Java microservices built on Kafka, CockroachDB, and
+                AWS
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="experience__Catalis">
+          <h2 class="company">Catalis</h2>
+          <h4 class="position">Software Developer I (Jun 2025 - Jun 2026)</h4>
+          <div className="experience_content">
+            <ul class="list">
+              <li class="list-item">
+                Developed a multi-tenant SaaS platform that consolidates
                 fourteen state-specific regulatory web applications into a
                 single, configurable codebase supporting U.S. small loan
                 transaction systems
               </li>
               <li class="list-item">
-                Enabling lenders to record small loan transactions and
-                government officials to monitor compliance with state-specific
-                lending laws by building and extending transaction and reporting
-                workflows in a .NET Blazor application
+                Enabled lenders to record small loan transactions and government
+                officials to monitor compliance with state-specific lending laws
+                by building and extending transaction and reporting workflows in
+                a .NET Blazor application
               </li>
               <li class="list-item">
                 Streamlined data access and improved maintainability by mapping
@@ -45,11 +65,9 @@ const Experience = () => {
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
-                Created an employee management web application using the MVC
+                Created an employee management web application using the MVCS
                 design pattern and REST API architecture, leveraging C#, .NET,
-                and Entity Framework for backend development, Angular and
-                TypeScript for frontend development, and MSSQL Server for
-                database management
+                Entity Framework, Angular, TypeScript, and SQL Server
               </li>
               <li class="list-item">
                 Developed and integrated advanced form field components,
@@ -60,8 +78,8 @@ const Experience = () => {
               <li class="list-item">
                 Enhanced reliability and performance of the company’s largest
                 in-house construction management web application by resolving
-                software bugs while using Agile practices and Azure DevOps
-                Server for code management
+                software bugs while using Agile practices and Azure DevOps for
+                code management
               </li>
             </ul>
           </div>
@@ -84,11 +102,6 @@ const Experience = () => {
                 components in JavaScript that dynamically adjust bar plot
                 elements
               </li>
-              <li class="list-item">
-                Successfully identified and addressed root causes of critical
-                software bugs by performing thorough navigation and debugging of
-                the Flask backend
-              </li>
             </ul>
           </div>
         </div>
@@ -107,10 +120,6 @@ const Experience = () => {
               <li class="list-item">
                 Enabled real-time backup and secure storage of critical CSV
                 files by implementing algorithms in Go
-              </li>
-              <li class="list-item">
-                Enhanced data accuracy by developing a Go script that performs
-                CSV data processing and parsing
               </li>
             </ul>
           </div>
