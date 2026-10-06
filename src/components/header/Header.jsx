@@ -11,7 +11,7 @@ const Header = () => {
         <h5>Hi I'm</h5>
         <h1>Heet Kothari</h1>
         {/* Check "text-light" class in index.css */}
-        <h5 className="text-light">Software Developer</h5>
+        <h5 className="text-light">Software Engineer</h5>
         <CTA />
         <HeaderSocials />
         <div className="me">

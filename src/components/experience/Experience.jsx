@@ -9,27 +9,26 @@ const Experience = () => {
       <div className="container experience__container">
         <div className="experience__Benevity">
           <h2 class="company">Benevity</h2>
-          <h4 class="position">Software Developer I (Jun 2026 - Sep 2026)</h4>
+          <h4 class="position">Software Engineer I (Jun 2026 - Sep 2026)</h4>
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
                 Enabled enterprise clients' employees to discover and sign up
-                for volunteering opportunities on a Microsoft Teams app by
+                for volunteering events on Benevity’s Microsoft Teams app by
                 syncing event and waitlist data between a PHP web platform and
                 Java Spring Boot microservices
               </li>
               <li class="list-item">
-                Practiced an AI-native software development process, using
-                Cursor for planning, design, and code generation across a legacy
-                monolith and Java microservices built on Kafka, CockroachDB, and
-                AWS
+                Shipped features using an AI-native workflow, with Cursor for
+                planning, design, and code generation across a legacy monolith
+                and Java microservices built on Kafka, CockroachDB, and AWS
               </li>
             </ul>
           </div>
         </div>
         <div className="experience__Catalis">
           <h2 class="company">Catalis</h2>
-          <h4 class="position">Software Developer I (Jun 2025 - Jun 2026)</h4>
+          <h4 class="position">Software Engineer I (Jun 2025 - Jun 2026)</h4>
           <div className="experience_content">
             <ul class="list">
               <li class="list-item">
@@ -60,7 +59,7 @@ const Experience = () => {
         <div className="experience__PCLConstruction">
           <h2 class="company">PCL Construction</h2>
           <h4 class="position">
-            Full Stack Developer Intern (May 2024 - Dec 2024)
+            Full Stack Engineer Intern (May 2024 - Dec 2024)
           </h4>
           <div className="experience_content">
             <ul class="list">
@@ -87,7 +86,7 @@ const Experience = () => {
         <div className="experience__48HourDiscovery">
           <h2 class="company">48HourDiscovery</h2>
           <h4 class="position">
-            Full Stack Developer Intern (May 2023 – Aug 2023)
+            Full Stack Engineer Intern (May 2023 – Aug 2023)
           </h4>
           <div className="experience_content">
             <ul class="list">
@@ -108,7 +107,7 @@ const Experience = () => {
         <div className="experience__SoftwareGovtofCanada">
           <h2 class="company">Government of Canada</h2>
           <h4 class="position">
-            Software Developer Intern (Jan 2023 - Apr 2023)
+            Software Engineer Intern (Jan 2023 - Apr 2023)
           </h4>
           <div className="experience_content">
             <ul class="list">

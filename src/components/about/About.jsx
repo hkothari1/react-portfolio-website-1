@@ -36,7 +36,7 @@ const About = () => {
           </div>
 
           <p>
-            My name is Heet and and I'm a previous Software Developer at
+            My name is Heet and and I'm a previous Software Engineer at
             Benevity and Catalis. I'm also a software engineering graduate from the
             University of Alberta. I love programming because it allows me to
             develop meaningful and impactful software. I made this website using
